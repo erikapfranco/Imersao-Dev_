@@ -1,0 +1,66 @@
+* {
+  font-family: verdana;
+  font-size: 3vmin;
+}
+
+div {
+  text-align:center;
+  justify-content: center;
+  position: absolute;
+  width: 400;
+  height: 300;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
+#valor {
+  color: #909090;
+}
+
+.symbol {
+  color: #909090;
+}
+
+#valorConvertido {
+  color: #909090;
+  font-size: 1.5em;
+  min-width: 4.6em;
+  max-width: 4.6em;
+}
+
+.cotacao {
+  background: #E7F4C9;
+}
+
+input{
+  background-color: transparent;
+  border: none;
+  height: 60px;
+  width: 250px;
+  padding: 20px;
+  font-size: 1.5em;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+span {
+  font-size: 1.5em;
+  min-width: 4.6em;
+  max-width: 4.6em;
+  
+}
+
+@media screen and (max-width: 992px) {
+  .conversor {
+    width: 50%;
+    font-size:1em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .conversor {
+    width: 100%;
+    font-size:1.1em;
+  }
+}
