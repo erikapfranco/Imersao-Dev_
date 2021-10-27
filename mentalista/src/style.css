@@ -1,0 +1,58 @@
+body {
+    margin: 10px;
+    font-family: "Roboto Mono", monospace;
+    min-height: 500px;
+    max-height:600px;
+    background-image:url(https://i.pinimg.com/originals/6a/aa/85/6aaa85cbd32250f7bbb625f3adeb2f3d.png);
+    background-color: #000000;
+    background-size: initial;
+    background-position: 60px 10px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 150vh;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 16px;
+}
+
+@media (max-height: 500px) {
+    body {
+        min-height: 800px;
+    }
+}
+
+input {
+    margin: 4px;
+    padding: 6px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.resultado {
+    color: #ffffff;
+    text-align: center;
+    margin: 100px;
+}
+
+.reset-button {
+    display: none;
+}
